@@ -1,0 +1,7 @@
+.title {
+    @apply text-[32px] font-medium my-6 text-white;
+}
+
+.award {
+    @apply flex flex-col gap-10 sm:flex-row
+}

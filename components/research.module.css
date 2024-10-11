@@ -1,0 +1,35 @@
+.research {
+  @apply flex flex-col gap-4 lg:gap-12 lg:mt-24;
+}
+
+.researchTitle {
+  @apply text-[22px] font-[50px] pb-3 md:text-[40px] text-white md:font-bold;
+}
+
+.researchItem {
+  @apply flex flex-col md:flex-row gap-2 lg:gap-[42px] md:mb-8;
+}
+
+.researchImage {
+  @apply flex justify-center md:w-1/2;
+}
+
+.researchDetail {
+  @apply pb-[42px] md:pb-0 md:w-1/2 md:pl-[42px] flex flex-col justify-center text-white;
+}
+
+.research > h1 {
+  @apply text-2xl md:text-3xl font-bold mb-2;
+}
+
+.researchTitle {
+  @apply text-2xl md:text-2xl lg:text-3xl font-medium mb-2;
+}
+
+.potentials {
+  @apply lg:mt-24 text-white;
+}
+
+.potentialTitle {
+  @apply text-3xl text-center lg:text-5xl font-bold mb-12;
+}

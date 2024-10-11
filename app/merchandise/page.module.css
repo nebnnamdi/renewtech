@@ -1,0 +1,23 @@
+.container {
+  @apply bg-[#334C3E] p-3 w-full h-full lg:px-[6.25rem];
+}
+
+.heroImg {
+  @apply h-[230px] w-full lg:h-full;
+}
+
+.heroText {
+  @apply absolute top-[13%] pl-5 md:top-[30%] text-white lg:pl-[72px] lg:top-[20%];
+}
+
+.heroTitle {
+  @apply text-[20px] md:text-[36px] md:leading-9 font-bold pb-1 lg:pb-5 lg:text-5xl;
+}
+
+.heroMessage {
+  @apply w-80 text-[12px] md:w-[526px] lg:w-[520px] md:text-[13px] lg:text-lg lg:w-[726px];
+}
+
+.heroBtn {
+  @apply px-2 py-3 text-xs mt-2 md:text-[14px] md:px-2 md:py-3 rounded-lg bg-[#E0E6C5] text-[#293500] lg:text-[16px] lg:px-5 lg:py-4 lg:rounded-xl lg:mt-6;
+}

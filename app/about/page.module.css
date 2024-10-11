@@ -1,0 +1,31 @@
+.container {
+  @apply bg-[#334C3E] p-3 w-full h-full sm:p-8 lg:px-[6.25rem];
+}
+
+.hero {
+  @apply w-full h-[341px] bg-[#C0D76B] text-[#334C3E] flex justify-center items-center;
+}
+
+.h1 {
+  @apply text-[32px] font-bold sm:text-[64px] leading-[41.66px] md:leading-[70.5px];
+}
+
+.h2 {
+  @apply text-[22px] pb-2 sm:text-5xl sm:font-bold lg:pt-[6.25rem] lg:pb-2 sm:text-4xl lg:text-5xl;
+}
+
+.title {
+  @apply w-[300px] text-center sm:w-[600px];
+}
+
+.story {
+  @apply text-white;
+}
+
+.our-story > p {
+  @apply pb-5;
+}
+
+.team {
+  @apply text-black flex flex-wrap justify-center items-start;
+}

@@ -1,0 +1,39 @@
+.team {
+  @apply p-5 rounded-lg bg-white md:w-1/4 sm:m-4 my-2 w-[344px] flex flex-col items-center;
+}
+
+.h2 {
+  @apply font-bold text-xl mt-7;
+}
+
+.details {
+  @apply absolute top-0 p-2 text-white;
+}
+
+.name {
+  @apply text-[19px] font-[500] sm:text-[20px] lg:text-[22px];
+}
+
+.year {
+  @apply text-sm font-[400];
+}
+
+.merch {
+  @apply flex flex-col justify-center items-center rounded-lg p-2 lg:w-[345.33px] lg:h-[308px] bg-white;
+}
+
+.merchTitle {
+  @apply text-xl mt-4 mb-2;
+}
+
+.feedback {
+  @apply p-6 bg-[#DEE4E1] rounded-lg md:w-[298.67px] md:h-[339px] lg:w-[337.33px] lg:h-[317];
+}
+
+.feedbackHeader {
+  @apply flex gap-2 mb-4;
+}
+
+.feedbackName {
+  @apply text-[22px]
+}

@@ -1,0 +1,15 @@
+.container {
+  @apply bg-[#334C3E] p-3 w-full h-full lg:px-[6.25rem];
+}
+
+.hero {
+  @apply w-full h-[341px] bg-[#C0D76B] text-[#334C3E] flex justify-center items-center;
+}
+
+.h1 {
+  @apply text-[32px] font-bold leading-[41.66px] sm:text-[64px] sm:leading-[70.5px];
+}
+
+.title {
+  @apply w-[300px] text-center sm:w-[600px];
+}

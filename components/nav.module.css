@@ -1,0 +1,40 @@
+.nav {
+  @apply w-full h-24 shadow-xl bg-[#334C3E];
+}
+
+.nav_menu {
+  @apply flex justify-between items-center w-full h-full px-4 2xl:px-16;
+}
+
+.s_menu {
+  @apply hidden md:flex text-white gap-4;
+}
+
+.s_menu ul {
+  @apply md:flex gap-5 text-xl md:text-lg py-[24px];
+}
+
+.s_menu ul li {
+  @apply hover:underline hover:underline-offset-8 hover:decoration-[#C0D76B];
+}
+
+.s_menu span {
+  @apply hidden md:flex text-xl text-white border-2 border-[#C0D76B] px-[20px] py-[24px] rounded-xl hover:bg-[#C0D76B] hover:text-black;
+}
+
+.ham_menu {
+  @apply md:hidden cursor-pointer;
+}
+
+.display {
+  @apply absolute left-0 top-0 w-[65%] md:hidden h-screen bg-[#334C3E] p-8 ease-in duration-500 z-50;
+
+}
+
+.hide {
+  @apply hidden fixed top-0 p-10 ease-in duration-500 -left-full;
+}
+
+.mob_started {
+  @apply text-white border-2 border-[#C0D76B] px-[10px] py-[12px] rounded-xl;
+}

@@ -1,0 +1,51 @@
+.hero {
+  @apply flex justify-center items-center bg-[#C0D76B] w-full h-[148px] md:h-[205px] lg:h-[341px];
+}
+
+.hero > h1 {
+  @apply text-[#334C3E] text-[32px] text-center leading-[41.66px] md:w-[960px] md:text-[64px] md:font-bold md:leading-[70.5px] lg:w-[800px];
+}
+
+.container {
+  @apply flex flex-col md:flex-row justify-between text-white bg-[#334C3E] p-3 w-full h-full md:p-8 lg:p-[6.25rem];
+}
+
+.form {
+  @apply flex flex-col p-3 md:w-[55%] lg:w-[486.5px] mb-10;
+}
+
+.formTitle {
+  @apply text-[22px] p-10;
+}
+
+.container > input {
+  @apply p-[16px];
+}
+
+.formInput {
+  @apply flex flex-col;
+}
+
+.formLabel {
+  @apply text-sm;
+}
+
+.input {
+  @apply p-4 rounded-lg bg-[#334C3E] border-[1px] border-[#9AB1A3] mb-4;
+}
+
+.button {
+  @apply bg-[#E0E6C5] text-[#334C3E] rounded-lg px-5 py-4 w-full;
+}
+
+.contact {
+  @apply flex flex-col justify-center p-10 gap-5 mb-1;
+}
+
+.footer {
+  @apply bg-[#334C3E] p-3 text-white md:flex md:justify-between md:p-8 lg:px-[219px] lg:py-[100px];
+}
+
+.links {
+  @apply flex flex-col gap-6 mt-8;
+}
