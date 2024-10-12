@@ -5,6 +5,10 @@ import Merch from "@/components/merch";
 import Testimonials from "@/components/testimonials";
 import Footer from "@/components/footer";
 
+export const metadata = {
+  title: "Merchandise | Renewtech",
+};
+
 export default function Merchandise() {
   return (
     <>
@@ -12,7 +16,9 @@ export default function Merchandise() {
         <Image src={MerchHero} alt="Merch Hero" className={styles.heroImg} />
 
         <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>Renew Tech&apos;s EcoStyle: <br/> Your Path to a Greener Future</h1>
+          <h1 className={styles.heroTitle}>
+            Renew Tech&apos;s EcoStyle: <br /> Your Path to a Greener Future
+          </h1>
           <p className={styles.heroMessage}>
             Welcome to Renew Tech&#39;s eco-friendly merchandise haven! Our
             collection is not just about clothing and accessories; it&#39;s a
@@ -27,7 +33,7 @@ export default function Merchandise() {
       <div className={styles.container}>
         <Merch />
       </div>
-      
+
       <Testimonials />
 
       <div className={styles.container}>

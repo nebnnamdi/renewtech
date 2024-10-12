@@ -3,6 +3,10 @@ import styles from "./page.module.css";
 import { logo2 } from "../images";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Contact Us | Renewtech",
+};
+
 export default function ContactUs() {
   return (
     <>

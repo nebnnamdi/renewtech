@@ -5,6 +5,10 @@ import { globe, panel, reactor, tech } from "./images";
 import Footer from "@/components/footer";
 import Team from "@/components/team";
 
+export const metadata = {
+  title: 'Welcome to Renewtech'
+}
+
 export default function Home() {
   return (
     <>

@@ -3,6 +3,10 @@ import Team from "@/components/team";
 import Awards from "@/components/awards";
 import Footer from "@/components/footer";
 
+export const metadata = {
+  title: 'About Us | Renewtech'
+}
+
 export default function About() {
   return (
     <>

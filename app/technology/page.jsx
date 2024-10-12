@@ -2,6 +2,10 @@ import Research from "@/components/research";
 import styles from "./page.module.css";
 import Footer from "@/components/footer";
 
+export const metadata = {
+  title: "Technology | Renewtech",
+};
+
 export default function Technology() {
   return (
     <>
