@@ -1,3 +1,3 @@
 .list {
-    @apply flex flex-wrap gap-7 justify-center md:my-8 lg:my-24
+    @apply mt-10 flex flex-wrap gap-7 justify-center md:my-8 lg:my-24
 }

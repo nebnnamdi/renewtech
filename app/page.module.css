@@ -15,7 +15,7 @@
 }
 
 .hero_text p {
-  @apply sm:w-2/4 mb-6;
+  @apply sm:w-2/4 mb-5;
 }
 
 .link {

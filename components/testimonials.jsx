@@ -3,7 +3,7 @@ import { FeedbackCard } from "./card";
 
 export default function Testimonials() {
   return (
-    <div className="bg-white p-3 md:p-8 lg:p-[100px] w-full">
+    <div className="mt-10 bg-white p-3 md:p-8 lg:p-[100px] w-full lg:mt-0">
       <Feedback />
     </div>
   );

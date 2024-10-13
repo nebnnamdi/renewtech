@@ -7,7 +7,7 @@
 }
 
 .h1 {
-  @apply text-[32px] font-bold leading-[41.66px] sm:text-[64px] sm:leading-[70.5px];
+  @apply mt-10 text-[32px] font-bold leading-[41.66px] sm:text-[64px] sm:leading-[70.5px];
 }
 
 .title {

@@ -1,5 +1,5 @@
 .title {
-    @apply text-[32px] font-medium my-6 text-white;
+    @apply text-[32px] font-medium my-6 pt-10 text-white;
 }
 
 .award {
